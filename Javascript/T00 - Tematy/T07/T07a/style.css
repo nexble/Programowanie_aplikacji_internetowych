@@ -1,0 +1,29 @@
+body {
+    background-image: url("https://cdn.wallpapersafari.com/94/76/PHsOXh.jpg");
+    color: #130000;
+    margin: 30px;
+}
+
+hr {
+    height: 5px;
+    background-color: #130000;
+    border: none;
+}
+
+header {
+    margin: 15px;
+    padding: 10px;
+    font-family: "Arial Black", cursive;
+}
+
+section {
+    font-family: "Book Antiqua", cursive;
+    font-size: 20px;
+}
+
+#lista {
+    background-color: #640000;
+    border-style: solid;
+    border-radius: 15px;
+    border-color: darkred;
+}

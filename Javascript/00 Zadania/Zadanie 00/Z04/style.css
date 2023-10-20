@@ -1,0 +1,15 @@
+body {
+    background-color: #5d7340;
+    color: #3f5027;
+    margin: 30px;
+    border: none;
+}
+
+#wynik {
+    color: #212a13;
+    background-color: #40542a;
+    border: 3px #35461b solid;
+    padding: 30px;
+    border-radius: 15px;
+    margin-top: 20px;
+}
