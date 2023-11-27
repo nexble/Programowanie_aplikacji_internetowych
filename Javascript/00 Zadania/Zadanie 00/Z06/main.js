@@ -1,19 +1,16 @@
 const liczba_a = document.querySelector('#a');
 const liczba_b = document.querySelector('#b');
-const liczba_c = document.querySelector('#c')
-const wynik = document.querySelector('#wynik');
-
+const liczba_c = document.querySelector('#c');
+const wynik = document.querySelector('#wynik')
 const btn = document.querySelector('button');
 
-btn.addEventListener('click', function () {
-    let a = liczba_a.value;
-    let b = liczba_b.value;
-    let c = liczba_c.value;
+btn.addEventListener('click', function (){
+let a = parseInt(liczba_a.value);
+let b = parseInt(liczba_b.value);
+let c = parseInt(liczba_c.value);
 
-    let wynik = Math.sqrt((a+b+c)(a+b-c)(a-b+c)(-a+b+c))/4;
+let p = (a + b + c) / 2;
+let s = Math.sqrt(p * (p - a) * (p - b) * (p - c))
 
-    wynik.innerHTML = `a = ${a} <br>
-                   b = ${b}<br>
-                   c = ${c} <br>
-                   wynik = ${wynik} <br>`
+wynik.innerHTML = `Pole trójkąta o bokach ${a}, ${b} i ${c} wynosi ${s}`;
 });
