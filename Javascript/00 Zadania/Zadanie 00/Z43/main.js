@@ -12,7 +12,7 @@ btn.addEventListener("click", function () {
     if (nr > 9 && nr < 100) {
         wynik.innerHTML = `liczba a = ${nr} <br>
                             liczba jest dwucyfrowa`
-        if (nr%2 == 0) {
+        if (nr%2 === 0) {
             wynik.innerHTML = `liczba a = ${nr} <br>
                             liczba jest dwucyfrowa parzysta`
         }
